@@ -3,5 +3,11 @@
 int main(void)
 {
 	puts( "3 + 2 is");
-	printf("%d\n", 3 + 2);
+	int sum = 3+2; 
+	printf("%d\n", sum);
+
+	sum = 3 + 12;
+	printf("the new sum is %d\n", sum);
 }
+
+
