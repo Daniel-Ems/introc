@@ -8,10 +8,10 @@ int main(void)
 	while (n < 5) {
 
 	     printf("Grade %d is %d\n", n, grades[n]);
-	     n += 1;
+	     ++n;
 	}
 	
-	for(int n = 0; n < 5; n += 1) {
+	for(int n = 0; n < 5; ++n) {
 		printf("Grade %d is %d\n", n, grades[n]);
 	}
 
