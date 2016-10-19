@@ -9,8 +9,11 @@ int main(void)
 
 	     printf("Grade %d is %d\n", n, grades[n]);
 	     n += 1;
-	
-	
 	}
+	
+	for(int n = 0; n < 5; n += 1) {
+		printf("Grade %d is %d\n", n, grades[n]);
+	}
+
 
 }
