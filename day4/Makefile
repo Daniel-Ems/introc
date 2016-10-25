@@ -1,5 +1,5 @@
 CPPFLAGS+=	-Wall -Wextra -Wpedantic -Wwrite-strings -Wstack-usage=1024 
-CPPFLAGS+=  -Wfoat-equal -waggregate-return -Winline 
+CPPFLAGS+= -Wfloat-equal -Waggregate-return -Winline 
 
 CFLAGS+=-std=c11
 
