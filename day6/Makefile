@@ -5,4 +5,5 @@ CFLAGS+=-std=c11
 
 LDLIBS += -lm
 
+blackjack: blackjack.o card.o
 
